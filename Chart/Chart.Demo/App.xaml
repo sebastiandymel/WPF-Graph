@@ -1,0 +1,32 @@
+﻿<Application x:Class="Chart.Demo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Chart.Demo"
+             StartupUri="MainWindow.xaml"
+             >
+    <Application.Resources>
+
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Area.Right">Blue</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Line.Right">Blue</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Area.first.Left">Black</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Area.second.Left">Black</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Area.Left">DarkRed</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Line.Left">Red</SolidColorBrush>
+        <SolidColorBrush x:Key="StrokeBrush.Curve.Line">Black</SolidColorBrush>
+
+        <SolidColorBrush x:Key="FillBrush.Curve.Area.first.Left">#A0BF16FA</SolidColorBrush>
+        <LinearGradientBrush x:Key="FillBrush.Curve.Area.second.Left" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+            <GradientStop Offset="1" Color="#99C32C5E" />
+            <GradientStop Offset="0.101" Color="#995D0505" />
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="FillBrush.Curve.Area.TopLimit.Left" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+            <GradientStop Offset="1" Color="#99E04377" />
+            <GradientStop Offset="0.088" Color="#CC07060C" />
+        </LinearGradientBrush>
+        <SolidColorBrush x:Key="FillBrush.Curve.Area.TopLimit.Right">#A000FFFA</SolidColorBrush>
+        <SolidColorBrush x:Key="FillBrush.Curve.Area.Left">#A5FF00FF</SolidColorBrush>
+        <SolidColorBrush x:Key="FillBrush.Curve.Area.Right">#A5FFFF00</SolidColorBrush>
+        <SolidColorBrush x:Key="FillBrush.Curve.Bar.Right">#A5FFFF00</SolidColorBrush>
+        <SolidColorBrush x:Key="FillBrush.Curve.Bar.Left">#A5FFCC00</SolidColorBrush>
+    </Application.Resources>
+</Application>
